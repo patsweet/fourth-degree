@@ -1,13 +1,26 @@
-.perp {
-    width: 48%;
-    height: auto;
-    float: left;
-    margin: 10px 3px;
-    position: relative;
+html, body{
+    font-family: Arial,sans-serif;
+    height: 100%;
+}
+#cobrand-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    width: 100%;
+    border-width: 0;
+}
+.perp .info {
+    display: inline-block;
+    vertical-align: top;
+    width: 74%;
 }
 .perp .mugshot {
-    width: 100%;
+    width: 25%;
     height: auto;
+    float: right;
+    border: 3px solid #d4d4d4;
 }
 .perp .mugshot-overlay {
     position: absolute;
