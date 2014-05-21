@@ -30,6 +30,9 @@
             </p>
         </div>
     </div>
+    <div class="row">
+        <div class="small-12 medium-12 large-12 columns" id="richards"></div>
+    </div>
     <div class="row" id="filters">
         <div class="filter small-6 medium-3 large-3 columns">
             <label for="">Max victim age: <span class="victim_age"></span></label>
@@ -48,8 +51,8 @@
             </div>
         </div>
         <div class="filter small-6 medium-3 large-3 columns">
-            <label for="">Min. time served: <span class="prison_time"></span> months</label>
-            <div id="prison_time_slider" class="range-slider" data-slider="0" data-options="start:0;end:42;step:1;display_selector:.prison_time;">
+            <label for="">Max time served: <span class="prison_time"></span> months</label>
+            <div id="prison_time_slider" class="range-slider" data-slider="42" data-options="start:0;end:42;step:0.5;display_selector:.prison_time;">
                 <span class="range-slider-handle"></span>
                 <span class="range-slider-active-segment"></span>
                 <input type="hidden">
@@ -68,7 +71,7 @@
     </div>
     <div class="row">
         <p>
-            Showing <span id="offender_count"></span> of 16.
+            Showing <span id="offender_count"></span> of 15.
         </p>
         <div class="small-12 medium-12 large-12 columns" id="perp_list">
         </div>

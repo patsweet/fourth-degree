@@ -13,9 +13,9 @@
         "actual_prison_time": 15.5,
         "actual_prison_time_display": "15.5 months",
         "sentencing_transcript": "1164881-amigon-transcript",
-        "plea_agreement": ["1164635-amigon", "159275"],
+        "prob_cause": "1164635-amigon",
         "sentencing_order": ["1164635-amigon", "159247"],
-        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, in, modi, veniam porro culpa labore rerum cumque alias quos ea fugit deserunt dignissimos eius perferendis maiores repudiandae facere sit accusantium."
+        "about": "Amigon was dating a 14-year-old girl, according to the affidavit of probable cause. He and the girl had sex in the rear parking lot of the Police Athletic League Center on Karlyn Drive in November 2008 and again when she skipped school to spend the week with Amigon at his residence."
     },
     {
         "first_name": "Robert",
@@ -32,9 +32,9 @@
         "actual_prison_time_display": "0 months",
         "sentencing_transcript":
             "1105159-hearing-transcript-of-richards-case",
-        "plea_agreement": ["1164653-richards", "159320"],
+        "prob_cause": "1164653-richards",
         "sentencing_order": ["1164653-richards", "159321"],
-        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, amet asperiores est necessitatibus voluptas. Quam, aperiam, dolorem, ducimus perspiciatis dolore mollitia fuga doloremque illo molestiae aliquid velit explicabo repellendus dolores?"
+        "about": ""
     },
     {
         "first_name": "Steven",
@@ -50,9 +50,9 @@
         "actual_prison_time": 4,
         "actual_prison_time_display": "112 days",
         "sentencing_transcript": "1164887-rogers-transcript",
-        "plea_agreement": ["1164654-rogers", "159252"],
+        "prob_cause": "1164654-rogers",
         "sentencing_order": ["1164654-rogers","159255"],
-        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, quia, accusantium, fugiat, minus mollitia ratione nam facilis repellendus temporibus tempora explicabo in nemo obcaecati sapiente hic. Delectus quibusdam possimus deserunt."
+        "about": ""
     },
     {
         "first_name": "George",
@@ -69,9 +69,9 @@
         "actual_prison_time": 1.7,
         "actual_prison_time_display": "48 days",
         "sentencing_transcript": "1164886-livingston-transcript",
-        "plea_agreement": ["1164650-livingston", "159273"],
+        "prob_cause":"1164650-livingston",
         "sentencing_order": ["1164650-livingston", "159260"],
-        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ea, officiis, saepe fugit illo tempore incidunt vero ipsa commodi sint voluptatem repellat quae obcaecati dicta alias blanditiis id recusandae. Asperiores."
+        "about": ""
     },
     {
         "first_name": "Alfred",
@@ -88,9 +88,9 @@
         "actual_prison_time_display":
             "38 days before sentencing, 7 days after",
         "sentencing_transcript": "1164651-ofori-transcript",
-        "plea_agreement": ["1164652-ofori", "159279"],
+        "prob_cause": "1164652-ofori",
         "sentencing_order": ["1164652-ofori", "159280"],
-        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, debitis officia perferendis molestiae explicabo blanditiis velit libero quasi dolore nobis inventore doloremque nisi reiciendis veniam soluta similique perspiciatis odit id?"
+        "about": ""
     },
     {
         "first_name": "Robert",
@@ -106,9 +106,9 @@
         "actual_prison_time": 11.5,
         "actual_prison_time_display": "11.5 months",
         "sentencing_transcript": "1164884-bollinger-transcript",
-        "plea_agreement": ["1164637-bollinger", "159281"],
+        "prob_cause": "1164637-bollinger",
         "sentencing_order": ["1164637-bollinger", "159282"],
-        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, corporis, assumenda, suscipit cum omnis iusto deleniti dolorum explicabo laudantium id quo labore voluptatibus deserunt enim aliquid rerum dicta consectetur quos."
+        "about": "Bollinger met the 14-year-old girl as a bus driver for the Red Clay School District. The victim disclosed to a school counselor that the two had sex, and the school's principal contacted police, according to the affidavit of probable cause. In December of 2005, Bollinger picked up the girl a block from her home and took her to his house where they kissed in the living room before moving to the bedroom and having sex."
     },
     {
         "first_name": "Doyle",
@@ -124,9 +124,9 @@
         "actual_prison_time": 0.035,
         "actual_prison_time_display": "1 day",
         "sentencing_transcript": "1164645-hinton-transcript",
-        "plea_agreement": ["1164646-hinton", "159299"],
+        "prob_cause": "1164646-hinton",
         "sentencing_order": ["1164646-hinton", "159300"],
-        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, possimus, quo, ducimus inventore rerum quibusdam vel ipsa accusantium eum expedita esse magni voluptatum vero! Sed cumque a officiis reiciendis accusamus?"
+        "about": ""
     },
     {
         "first_name": "Thomas",
@@ -142,9 +142,9 @@
         "actual_prison_time": 27,
         "actual_prison_time_display": "27 months",
         "sentencing_transcript": "1164883-beggs-transcript",
-        "plea_agreement": ["1164636-beggs", "159302"],
+        "prob_cause": "1164636-beggs",
         "sentencing_order": ["1164636-beggs", "159303"],
-        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, id, quisquam dolorum vitae modi omnis odio assumenda quam voluptatum exercitationem perspiciatis et laboriosam quaerat eaque temporibus asperiores eius enim distinctio!"
+        "about": "On Jan. 1, 2009, Beggs forced the 17-year-old girl - a friend of his girlfriend's daughter - to have vaginal and anal sex and engage in fellatio and cunnilingus, according to the affidavit of probable cause. The victim was taken to Christiana Hospital where she underwent a sexual assault exam."
     },
     {
         "first_name": "Matthew",
@@ -160,9 +160,9 @@
         "actual_prison_time": 0.5,
         "actual_prison_time_display": "14 days",
         "sentencing_transcript": "1164640-emerson-transcript",
-        "plea_agreement": ["1164641-emerson", "159304"],
+        "prob_cause": "1164641-emerson",
         "sentencing_order": ["1164641-emerson", "159305"],
-        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, porro, a quas eveniet eos vitae delectus vel odio aliquam ex enim ducimus accusantium voluptate adipisci nostrum cum voluptatem ad accusamus."
+        "about": ""
     },
     {
         "first_name": "Juli",
@@ -178,9 +178,9 @@
         "actual_prison_time": 0.035,
         "actual_prison_time_display": "1 day",
         "sentencing_transcript": "1165206-faunce-transcript",
-        "plea_agreement": ["1164642-faunce", "159306"],
+        "prob_cause": "1164642-faunce",
         "sentencing_order": ["1164642-faunce", "159307"],
-        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, quasi modi distinctio aliquid nam perspiciatis doloremque quia non minus doloribus tempore voluptates sed aspernatur numquam assumenda quos veniam saepe nesciunt."
+        "about": ""
     },
     {
         "first_name": "David",
@@ -196,9 +196,9 @@
         "actual_prison_time": 11.5,
         "actual_prison_time_display": "11.5 months",
         "sentencing_transcript": "1164647-holmes-transcript",
-        "plea_agreement": ["1164648-holmes", "159308"],
+        "prob_cause": "1164648-holmes",
         "sentencing_order": ["1164648-holmes", "159309"],
-        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, distinctio, nobis, dolores quo magni inventore natus a quos repellat assumenda impedit in. Tempora, architecto eveniet iure saepe soluta dolores recusandae!"
+        "about": ""
     },
     {
         "first_name": "Justin",
@@ -214,9 +214,9 @@
         "actual_prison_time": 42,
         "actual_prison_time_display": "42 months",
         "sentencing_transcript": "1164888-simpson-transcript",
-        "plea_agreement": ["1164655-simpson", "159310"],
+        "prob_cause": "1164655-simpson",
         "sentencing_order": ["1164655-simpson", "159311"],
-        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, aliquam nulla corporis officia nihil animi repellat aut soluta perspiciatis aperiam reiciendis dolor eum incidunt vitae enim repudiandae quae porro necessitatibus?"
+        "about": ""
     },
     {
         "first_name": "Robert",
@@ -232,9 +232,9 @@
         "actual_prison_time": 0,
         "actual_prison_time_display": "0",
         "sentencing_transcript": "1164656-stoner-transcript",
-        "plea_agreement": ["1164657-stoner", "159312"],
+        "prob_cause": "1164657-stoner",
         "sentencing_order": ["1164657-stoner", "159313"],
-        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, in, soluta illum dolores ab quia dolore corrupti cumque quaerat iure sed quisquam quo consectetur rerum magnam eius nobis excepturi natus."
+        "about": ""
     },
     {
         "first_name": "Bryant",
@@ -250,9 +250,9 @@
         "actual_prison_time": 5,
         "actual_prison_time_display": "About 5 months",
         "sentencing_transcript": "1164643-hinson-transcript",
-        "plea_agreement": ["1164644-hinson", "159314"],
+        "prob_cause": "1164644-hinson",
         "sentencing_order": ["1164644-hinson", "159315"],
-        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, possimus, suscipit, sapiente quis consequuntur recusandae voluptas omnis nemo odit similique debitis ad eos aperiam architecto voluptatum amet repudiandae ullam esse."
+        "about": ""
     },
     {
         "first_name": "Javier",
@@ -263,15 +263,15 @@
         "perp_age": 37,
         "judge": "Charles H. Toliver IV",
         "sentence_date": "Nov. 19, 2012",
-        "prison_sentence": 0,
-        "prison_sentence_display": "0",
+        "prison_sentence": 8.8,
+        "prison_sentence_display": "247 days",
         "actual_prison_time": 8.8,
         "actual_prison_time_display": "247 days previously served",
         "sentencing_transcript":
             "1164638-castro-aguirre-transcript",
-        "plea_agreement": ["1164639-castro-aguirre", "159316"],
+        "prob_cause": "1164639-castro-aguirre",
         "sentencing_order": ["1164639-castro-aguirre", "159317"],
-        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, cumque, est, accusamus, impedit id possimus quos aut repellat enim quaerat atque nam dolorum ea quisquam numquam dignissimos voluptatibus quam cum."
+        "about": ""
     },
     {
         "first_name": "Steven",
@@ -287,8 +287,8 @@
         "actual_prison_time": 6,
         "actual_prison_time_display": "6 months ",
         "sentencing_transcript": "1164885-krier-transcript",
-        "plea_agreement": ["1164649-krier","159318"],
+        "prob_cause": "1164649-krier",
         "sentencing_order": ["1164649-krier","159319"],
-        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, quidem, quos ipsa saepe magni illo amet deserunt perferendis id alias dolorum dicta minus incidunt laudantium dolore praesentium autem fugiat quaerat!"
+        "about": ""
     }
 ]

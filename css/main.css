@@ -11,12 +11,24 @@ html, body{
     width: 100%;
     border-width: 0;
 }
+#richards .panel {
+    border-color: black;
+    background-color: darkgray;
+    color: white;
+}
+#richards .panel h2 {
+    color: white;
+}
+.perp p {
+    font-size: 0.8em;
+}
 .perp .mugshot {
     width: 100%;
     height: auto;
     border: 3px solid #d4d4d4;
 }
 .perp .quick-info li {
+    font-size: 0.8em;
     list-style-type: none;
 }
 .DC-note {

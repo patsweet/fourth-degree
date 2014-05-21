@@ -9,8 +9,8 @@ define([
         template: _.template(perpTemplate),
         events: {
             "click .prison-sentence-modal": "launchPrisonModal",
-            "click .plea-agreement-modal": "launchPleaModal",
-            "click .sentencing-transcript-modal": "launchSentencingModal"
+            "click .sentencing-transcript-modal": "launchSentencingModal",
+            "click .probable-cause-modal": "launchProbableCauseModal"
         },
         initialize: function() {
             this.listenTo(this.model, "change", this.render);
@@ -30,17 +30,6 @@ define([
                 this.model.get('sentencing_order')[1]
             );
         },
-        launchPleaModal: function() {
-            new ModalView().
-            renderNote(
-                this.model.get('plea_agreement')[1]
-            ).
-            reveal().
-            loadNote(
-                this.model.get('plea_agreement')[0],
-                this.model.get('plea_agreement')[1]
-            );
-        },
         launchSentencingModal: function() {
             new ModalView()
             .renderDocument(
@@ -48,8 +37,16 @@ define([
             )
             .reveal()
             ;
+        },
+        launchProbableCauseModal: function() {
+            new ModalView()
+            .renderDocument(
+                this.model.get('prob_cause')
+            )
+            .reveal()
+            ;
         }
     });
-    
+
     return PerpView;
 });

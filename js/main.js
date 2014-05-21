@@ -1,4 +1,10 @@
 require.config({
+    shim: {
+        'foundation.min': {
+            deps: ['vendor/jquery'],
+            exports: 'Foundation'
+        }
+    },
     paths: {
         jquery: 'vendor/jquery',
         foundation: 'foundation.min',
@@ -12,6 +18,10 @@ require([
     'foundation',
     'views/main'
 ], function($, foundation, MainView){
-    $(document).foundation();
+
+    $(function() {
+        $(document).foundation();
+    });
+
     new MainView();
 });

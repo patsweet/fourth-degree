@@ -13,7 +13,6 @@ define([
             this.collection.bind("reset", this.render);
             this.collection.bind("change", this.render);
             this.collection.bind("sort", this.render);
-            this.collection.fetch({reset:true});
             return this;
         },
         render: function() {
