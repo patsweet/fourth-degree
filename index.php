@@ -53,7 +53,7 @@
     <div class="row" id="filters">
         <div class="filter small-6 medium-3 large-3 columns">
             <label for="">Max victim age: <span class="victim_age"></span></label>
-            <div id="victim_age_slider" class="range-slider" data-slider="16" data-options="start:3; end:16;step:1;display_selector:.victim_age;">
+            <div id="victim_age_slider" class="range-slider" data-slider="17" data-options="start:3;end:17;step:1;display_selector:.victim_age;">
                 <span class="range-slider-handle"></span>
                 <span class="range-slider-active-segment"></span>
                 <input type="hidden">
@@ -99,38 +99,50 @@
         </div>
         <hr>
     </div>
+    <!-- MODAL -->
+    <div id="document_modal" class="reveal-modal large" data-reveal>
+        <div class="document_modal_content">
+            Should't appear
+        </div>
+        <a class="close-reveal-modal">&#215;</a>
+    </div>
     <iframe src="http://www.delawareonline.com/services/cobrand/footer/" frameborder="0" scrolling="no" style="width:100%;height:232px;"></iframe>
-
     <script type="text/template" id="perp_template">
         <div class="perp small-12 medium-12 large-12 columns panel">
-            <img src="<%= mugshot %>" class="mugshot" alt="">
-            <div class="info row">
+            <div class="small-12 medium-4 large-3 columns">
+                <img src="<%= mugshot %>" class="mugshot" alt="">
+            </div>
+            <div class="small-12 medium-8 large-9 columns">
                 <h2><%= displayName %></h2>
-                <div class="small-12 medium-12 large-6 columns">
-                    <p>
-                        <strong>Victim age:</strong> <%= victim_age_display %>
-                    </p>
-                    <p>
-                        <strong>Judge:</strong> <%= judge %>
-                    </p>
-                    <p>
-                        <strong>Sentence:</strong> <%= prison_sentence_display %>
-                    </p>
-                </div>
-                <div class="small-12 medium-12 large-6 columns">
-                    <p>
+                <ul class="quick-info">
+                    <li>
+                        <strong>Victim age:</strong> <%= victim_age %>
+                    </li>
+                    <li>
                         <strong>Offender age:</strong> <%= perp_age %>
-                    </p>
-                    <p>
+                    </li>
+                    <li>
                         <strong>Sentence date:</strong> <%= sentence_date %>
-                    </p>
-                    <p>
+                    </li>
+                    <li>
+                        <strong>Judge:</strong> <%= judge %>
+                    </li>
+                    <li>
+                        <strong>Prison Sentence:</strong> <%= prison_sentence_display %> <a class="prison-sentence-modal" href="javascript:void(0);"><img src="img/document-icon.png" style='margin:0 3px;' /></a>
+                    </li>
+                    <li>
                         <strong>Actual prison time:</strong> <%= actual_prison_time_display %>
-                    </p>
-                </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="sentencing-transcript-modal">Sentencing Transcript</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </script>
+    <!-- DocumentCloud Loaders -->
+    <script src="//s3.amazonaws.com/s3.documentcloud.org/viewer/loader.js"></script>
+    <script src="//s3.amazonaws.com/s3.documentcloud.org/notes/loader.js"></script>
     <!-- jQuery -->
     <script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
     <!-- Backbone -->

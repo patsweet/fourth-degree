@@ -25,8 +25,41 @@ $(document).foundation();
         }
     });
 
+
+
+    App.Views.Modal = Backbone.View.extend({
+        el: "#document_modal",
+        reveal: function() {
+            this.$el.foundation('reveal', 'open');
+            return this;
+        },
+        renderNote: function(docId) {
+            this.$(".document_modal_content").html(
+                '<div id="DC-note-'+docId+'" class="DC-note-container" style="width:100%;heigh:600px;"></div>'
+            );
+            return this;
+        },
+        renderDocument: function(docId) {
+            this.$(".document_modal_content")
+                .html(
+                    '<iframe src="http://php.delawareonline.com/news/documents/document.php?url=https://www.documentcloud.org/documents/'+docId+'.html" height="550" width="700" style="width:100%; min-width:600px;" frameBorder="0" scrolling="no"></iframe>'
+                );
+            return this;
+        },
+        loadNote: function(docId, noteId) {
+            var docUrl = "//www.documentcloud.org/documents/" + docId + "/annotations/" + noteId + ".js";
+            dc.embed.loadNote(docUrl);
+            return this;
+        },
+    });
+
     App.Views.Perp = Backbone.View.extend({
         template: App.Templates.Perp,
+        events: {
+            "click .prison-sentence-modal": "launchPrisonModal",
+            "click .plea-agreement-modal": "launchPleaModal",
+            "click .sentencing-transcript-modal": "launchSentencingModal"
+        },
         initialize: function() {
             this.listenTo(this.model, "change", this.render);
         },
@@ -34,6 +67,36 @@ $(document).foundation();
             this.$el.html(this.template(this.model.attributes));
             return this;
         },
+        launchPrisonModal: function() {
+            new App.Views.Modal().
+                renderNote(
+                    this.model.get('sentencing_order')[1]
+                ).
+                reveal().
+                loadNote(
+                    this.model.get('sentencing_order')[0],
+                    this.model.get('sentencing_order')[1]
+                );
+        },
+        launchPleaModal: function() {
+            new App.Views.Modal().
+                renderNote(
+                    this.model.get('plea_agreement')[1]
+                ).
+                reveal().
+                loadNote(
+                    this.model.get('plea_agreement')[0],
+                    this.model.get('plea_agreement')[1]
+                );
+        },
+        launchSentencingModal: function() {
+            new App.Views.Modal()
+                .renderDocument(
+                    this.model.get('sentencing_transcript')
+                )
+                .reveal()
+                ;
+        }
     });
 
     App.Views.PerpList = Backbone.View.extend({

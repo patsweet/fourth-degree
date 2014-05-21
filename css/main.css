@@ -11,16 +11,16 @@ html, body{
     width: 100%;
     border-width: 0;
 }
-.perp .info {
-    display: inline-block;
-    vertical-align: top;
-    width: 74%;
-}
 .perp .mugshot {
-    width: 25%;
+    width: 100%;
     height: auto;
-    float: right;
     border: 3px solid #d4d4d4;
+}
+.perp .quick-info li {
+    list-style-type: none;
+}
+.DC-note {
+    border-color: #d4d4d4 !important;
 }
 .perp .mugshot-overlay {
     position: absolute;
