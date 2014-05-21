@@ -13,33 +13,7 @@
     <script src="//s3.amazonaws.com/s3.documentcloud.org/viewer/loader.js"></script>
     <script src="//s3.amazonaws.com/s3.documentcloud.org/notes/loader.js"></script>
     <script data-main="js/main" src="js/vendor/require.js"></script>
-    <script>
-        var ad_web_service = '';
-        var utag_data= {
-            cst: ad_web_service,
-            instance: 'prod', /* or 'qa' or 'prod' */
-            partner_type: 'cobrand',
-            pathName: 'http://php.delawareonline.com'+document.location.pathname,
-            profile: 'wilmington',
-            ssts: 'news/local'
-        };
-        function cobrandPageLoad(utag_data) {
-            if (window.utag) {
-                window.utag.view(utag_data);
-            } else {
-                utag_data.partner_type= 'basic';
-                window.utag_data= utag_data;
-                var profile= utag_data.profile || 'unspecifiedprofile';
-                var instance= utag_data.instance || 'unspecifiedinstance';
-                var uscript = document.createElement('script');
-                uscript.async = true;
-                uscript.type = 'text/javascript';
-                uscript.src = '//tealium.hs.llnwd.net/o43/utag/gci/'+profile+'/'+instance+'/utag.js';
-                var node = document.getElementsByTagName('script')[0];
-                node.parentNode.insertBefore(uscript, node);
-            }
-        }
-    </script>
+    <script src="js/analytics.js"></script>
     <script type="text/javascript" src="//www.delawareonline.com/static/js/cobrand/partner.js"></script>
 </head>
 <body onload="cobrandPageLoad(utag_data);" class="tnj_app">
@@ -50,6 +24,9 @@
             <h1>Fourth-degree Rape</h1>
             <p>
                 Chatter goes here. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, porro, tempora, voluptatem cum minus quasi consectetur aliquid accusamus numquam sint provident dolorem doloribus officia. Animi sit perspiciatis nemo illo obcaecati!
+            </p>
+            <p>
+                Documents were redacted by court officials and The News Journal to protect victims and their families.
             </p>
         </div>
     </div>
@@ -104,9 +81,7 @@
     </div>
     <!-- MODAL -->
     <div id="document_modal" class="reveal-modal large" data-reveal>
-        <div class="document_modal_content">
-            Should't appear
-        </div>
+        <div class="document_modal_content"></div>
         <a class="close-reveal-modal">&#215;</a>
     </div>
     <iframe src="http://www.delawareonline.com/services/cobrand/footer/" frameborder="0" scrolling="no" style="width:100%;height:232px;"></iframe>

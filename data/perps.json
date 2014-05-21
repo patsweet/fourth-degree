@@ -12,9 +12,10 @@
         "prison_sentence_display": "18 months ",
         "actual_prison_time": 15.5,
         "actual_prison_time_display": "15.5 months",
-                "sentencing_transcript": "1164881-amigon-transcript",
+        "sentencing_transcript": "1164881-amigon-transcript",
         "plea_agreement": ["1164635-amigon", "159275"],
-        "sentencing_order": ["1164635-amigon", "159247"]
+        "sentencing_order": ["1164635-amigon", "159247"],
+        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, in, modi, veniam porro culpa labore rerum cumque alias quos ea fugit deserunt dignissimos eius perferendis maiores repudiandae facere sit accusantium."
     },
     {
         "first_name": "Robert",
@@ -29,9 +30,11 @@
         "prison_sentence_display": "0 months",
         "actual_prison_time": 0,
         "actual_prison_time_display": "0 months",
-                "sentencing_transcript": "1105159-hearing-transcript-of-richards-case",
+        "sentencing_transcript":
+            "1105159-hearing-transcript-of-richards-case",
         "plea_agreement": ["1164653-richards", "159320"],
-        "sentencing_order": ["1164653-richards", "159321"]
+        "sentencing_order": ["1164653-richards", "159321"],
+        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, amet asperiores est necessitatibus voluptas. Quam, aperiam, dolorem, ducimus perspiciatis dolore mollitia fuga doloremque illo molestiae aliquid velit explicabo repellendus dolores?"
     },
     {
         "first_name": "Steven",
@@ -45,10 +48,11 @@
         "prison_sentence": 0,
         "prison_sentence_display": "0 months",
         "actual_prison_time": 4,
-        "actual_prison_time_display": "Abt 4 months (112 days) time served before sentencing",
-                "sentencing_transcript": "1164887-rogers-transcript",
+        "actual_prison_time_display": "112 days",
+        "sentencing_transcript": "1164887-rogers-transcript",
         "plea_agreement": ["1164654-rogers", "159252"],
-        "sentencing_order": ["1164654-rogers","159255"]
+        "sentencing_order": ["1164654-rogers","159255"],
+        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, quia, accusantium, fugiat, minus mollitia ratione nam facilis repellendus temporibus tempora explicabo in nemo obcaecati sapiente hic. Delectus quibusdam possimus deserunt."
     },
     {
         "first_name": "George",
@@ -60,12 +64,14 @@
         "judge": "John E. Babiarz Jr.",
         "sentence_date": "Jan. 2, 2009",
         "prison_sentence": 0,
-        "prison_sentence_display": "0 months (credit for 48 days previously served)",
+        "prison_sentence_display":
+            "0 months (credit for 48 days served)",
         "actual_prison_time": 1.7,
-        "actual_prison_time_display": "48 days before posting bail ",
-                "sentencing_transcript": "1164886-livingston-transcript",
+        "actual_prison_time_display": "48 days",
+        "sentencing_transcript": "1164886-livingston-transcript",
         "plea_agreement": ["1164650-livingston", "159273"],
-        "sentencing_order": ["1164650-livingston", "159260"]
+        "sentencing_order": ["1164650-livingston", "159260"],
+        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, ea, officiis, saepe fugit illo tempore incidunt vero ipsa commodi sint voluptatem repellat quae obcaecati dicta alias blanditiis id recusandae. Asperiores."
     },
     {
         "first_name": "Alfred",
@@ -77,12 +83,14 @@
         "judge": "James T. Vaughn Jr.",
         "sentence_date": "June 15, 2008",
         "prison_sentence": 0,
-        "prison_sentence_display": "0 months (but held at V pending deportation)",
-        "actual_prison_time": 1.5,
-        "actual_prison_time_display": "1.5 months (38 days before   sentencing, 7 days after)",
-                "sentencing_transcript": "1164651-ofori-transcript",
+        "prison_sentence_display": "0 months",
+        "actual_prison_time": 1.35,
+        "actual_prison_time_display":
+            "38 days before sentencing, 7 days after",
+        "sentencing_transcript": "1164651-ofori-transcript",
         "plea_agreement": ["1164652-ofori", "159279"],
-        "sentencing_order": ["1164652-ofori", "159280"]
+        "sentencing_order": ["1164652-ofori", "159280"],
+        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, debitis officia perferendis molestiae explicabo blanditiis velit libero quasi dolore nobis inventore doloremque nisi reiciendis veniam soluta similique perspiciatis odit id?"
     },
     {
         "first_name": "Robert",
@@ -97,9 +105,10 @@
         "prison_sentence_display": "12 months",
         "actual_prison_time": 11.5,
         "actual_prison_time_display": "11.5 months",
-                "sentencing_transcript": "1164884-bollinger-transcript",
+        "sentencing_transcript": "1164884-bollinger-transcript",
         "plea_agreement": ["1164637-bollinger", "159281"],
-        "sentencing_order": ["1164637-bollinger", "159282"]
+        "sentencing_order": ["1164637-bollinger", "159282"],
+        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, corporis, assumenda, suscipit cum omnis iusto deleniti dolorum explicabo laudantium id quo labore voluptatibus deserunt enim aliquid rerum dicta consectetur quos."
     },
     {
         "first_name": "Doyle",
@@ -113,10 +122,11 @@
         "prison_sentence": 0,
         "prison_sentence_display": "0 months",
         "actual_prison_time": 0.035,
-        "actual_prison_time_display": "1 day before posting bail",
+        "actual_prison_time_display": "1 day",
         "sentencing_transcript": "1164645-hinton-transcript",
         "plea_agreement": ["1164646-hinton", "159299"],
-        "sentencing_order": ["1164646-hinton", "159300"]
+        "sentencing_order": ["1164646-hinton", "159300"],
+        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, possimus, quo, ducimus inventore rerum quibusdam vel ipsa accusantium eum expedita esse magni voluptatum vero! Sed cumque a officiis reiciendis accusamus?"
     },
     {
         "first_name": "Thomas",
@@ -133,7 +143,8 @@
         "actual_prison_time_display": "27 months",
         "sentencing_transcript": "1164883-beggs-transcript",
         "plea_agreement": ["1164636-beggs", "159302"],
-        "sentencing_order": ["1164636-beggs", "159303"]
+        "sentencing_order": ["1164636-beggs", "159303"],
+        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, id, quisquam dolorum vitae modi omnis odio assumenda quam voluptatum exercitationem perspiciatis et laboriosam quaerat eaque temporibus asperiores eius enim distinctio!"
     },
     {
         "first_name": "Matthew",
@@ -144,13 +155,14 @@
         "perp_age": 27,
         "judge": "Jan R. Jurden",
         "sentence_date": "July 21, 2011",
-        "prison_sentence": 1,
-        "prison_sentence_display": "1/2 month (14 days)",
+        "prison_sentence": 0.5,
+        "prison_sentence_display": "14 days",
         "actual_prison_time": 0.5,
-        "actual_prison_time_display": "14 days ",
+        "actual_prison_time_display": "14 days",
         "sentencing_transcript": "1164640-emerson-transcript",
         "plea_agreement": ["1164641-emerson", "159304"],
-        "sentencing_order": ["1164641-emerson", "159305"]
+        "sentencing_order": ["1164641-emerson", "159305"],
+        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, porro, a quas eveniet eos vitae delectus vel odio aliquam ex enim ducimus accusantium voluptate adipisci nostrum cum voluptatem ad accusamus."
     },
     {
         "first_name": "Juli",
@@ -164,10 +176,11 @@
         "prison_sentence": 0,
         "prison_sentence_display": "0 months",
         "actual_prison_time": 0.035,
-        "actual_prison_time_display": "1 day before posting bail after it was increased",
-        "sentencing_transcript": null,
+        "actual_prison_time_display": "1 day",
+        "sentencing_transcript": "1165206-faunce-transcript",
         "plea_agreement": ["1164642-faunce", "159306"],
-        "sentencing_order": ["1164642-faunce", "159307"]
+        "sentencing_order": ["1164642-faunce", "159307"],
+        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, quasi modi distinctio aliquid nam perspiciatis doloremque quia non minus doloribus tempore voluptates sed aspernatur numquam assumenda quos veniam saepe nesciunt."
     },
     {
         "first_name": "David",
@@ -179,12 +192,13 @@
         "judge": "Mary M. Johnston",
         "sentence_date": "March 5, 2010",
         "prison_sentence": 0,
-        "prison_sentence_display": "0 months (to be held at V pending level 4 opening)",
+        "prison_sentence_display": "0 months",
         "actual_prison_time": 11.5,
         "actual_prison_time_display": "11.5 months",
         "sentencing_transcript": "1164647-holmes-transcript",
         "plea_agreement": ["1164648-holmes", "159308"],
-        "sentencing_order": ["1164648-holmes", "159309"]
+        "sentencing_order": ["1164648-holmes", "159309"],
+        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, distinctio, nobis, dolores quo magni inventore natus a quos repellat assumenda impedit in. Tempora, architecto eveniet iure saepe soluta dolores recusandae!"
     },
     {
         "first_name": "Justin",
@@ -201,7 +215,8 @@
         "actual_prison_time_display": "42 months",
         "sentencing_transcript": "1164888-simpson-transcript",
         "plea_agreement": ["1164655-simpson", "159310"],
-        "sentencing_order": ["1164655-simpson", "159311"]
+        "sentencing_order": ["1164655-simpson", "159311"],
+        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, aliquam nulla corporis officia nihil animi repellat aut soluta perspiciatis aperiam reiciendis dolor eum incidunt vitae enim repudiandae quae porro necessitatibus?"
     },
     {
         "first_name": "Robert",
@@ -218,7 +233,8 @@
         "actual_prison_time_display": "0",
         "sentencing_transcript": "1164656-stoner-transcript",
         "plea_agreement": ["1164657-stoner", "159312"],
-        "sentencing_order": ["1164657-stoner", "159313"]
+        "sentencing_order": ["1164657-stoner", "159313"],
+        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, in, soluta illum dolores ab quia dolore corrupti cumque quaerat iure sed quisquam quo consectetur rerum magnam eius nobis excepturi natus."
     },
     {
         "first_name": "Bryant",
@@ -230,12 +246,13 @@
         "judge": "Charles H. Toliver IV",
         "sentence_date": "Aug. 23, 2013",
         "prison_sentence": 6,
-        "prison_sentence_display": "6 months (modified from 1 year after a few months)",
+        "prison_sentence_display": "6 months",
         "actual_prison_time": 5,
-        "actual_prison_time_display": "Abt 5 months",
-                "sentencing_transcript": "1164643-hinson-transcript",
+        "actual_prison_time_display": "About 5 months",
+        "sentencing_transcript": "1164643-hinson-transcript",
         "plea_agreement": ["1164644-hinson", "159314"],
-        "sentencing_order": ["1164644-hinson", "159315"]
+        "sentencing_order": ["1164644-hinson", "159315"],
+        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, possimus, suscipit, sapiente quis consequuntur recusandae voluptas omnis nemo odit similique debitis ad eos aperiam architecto voluptatum amet repudiandae ullam esse."
     },
     {
         "first_name": "Javier",
@@ -250,9 +267,11 @@
         "prison_sentence_display": "0",
         "actual_prison_time": 8.8,
         "actual_prison_time_display": "247 days previously served",
-                "sentencing_transcript": "1164638-castro-aguirre-transcript",
+        "sentencing_transcript":
+            "1164638-castro-aguirre-transcript",
         "plea_agreement": ["1164639-castro-aguirre", "159316"],
-        "sentencing_order": ["1164639-castro-aguirre", "159317"]
+        "sentencing_order": ["1164639-castro-aguirre", "159317"],
+        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, cumque, est, accusamus, impedit id possimus quos aut repellat enim quaerat atque nam dolorum ea quisquam numquam dignissimos voluptatibus quam cum."
     },
     {
         "first_name": "Steven",
@@ -267,8 +286,9 @@
         "prison_sentence_display": "6 months",
         "actual_prison_time": 6,
         "actual_prison_time_display": "6 months ",
-                "sentencing_transcript": "1164885-krier-transcript",
+        "sentencing_transcript": "1164885-krier-transcript",
         "plea_agreement": ["1164649-krier","159318"],
-        "sentencing_order": ["1164649-krier","159319"]
+        "sentencing_order": ["1164649-krier","159319"],
+        "about": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, quidem, quos ipsa saepe magni illo amet deserunt perferendis id alias dolorum dicta minus incidunt laudantium dolore praesentium autem fugiat quaerat!"
     }
 ]
