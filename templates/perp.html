@@ -1,0 +1,31 @@
+<div class="perp small-12 medium-12 large-12 columns panel">
+    <div class="small-12 medium-4 large-3 columns">
+        <img src="<%= mugshot %>" class="mugshot" alt="">
+    </div>
+    <div class="small-12 medium-8 large-9 columns">
+        <h2><%= displayName %></h2>
+        <ul class="quick-info">
+            <li>
+                <strong>Victim age:</strong> <%= victim_age %>
+            </li>
+            <li>
+                <strong>Offender age:</strong> <%= perp_age %>
+            </li>
+            <li>
+                <strong>Sentence date:</strong> <%= sentence_date %>
+            </li>
+            <li>
+                <strong>Judge:</strong> <%= judge %>
+            </li>
+            <li>
+                <strong>Prison Sentence:</strong> <%= prison_sentence_display %> <a class="prison-sentence-modal" href="javascript:void(0);"><img src="img/document-icon.png" style='margin:0 3px;' /></a>
+            </li>
+            <li>
+                <strong>Actual prison time:</strong> <%= actual_prison_time_display %>
+            </li>
+            <li>
+                <a href="javascript:void(0);" class="sentencing-transcript-modal">Sentencing Transcript</a>
+            </li>
+        </ul>
+    </div>
+</div>

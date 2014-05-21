@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/foundation.min.css" />
     <link rel="stylesheet" href="css/main.css">
     <script src="js/vendor/modernizr.js"></script>
+    <script src="//s3.amazonaws.com/s3.documentcloud.org/viewer/loader.js"></script>
+    <script src="//s3.amazonaws.com/s3.documentcloud.org/notes/loader.js"></script>
+    <script data-main="js/main" src="js/vendor/require.js"></script>
     <script>
         var ad_web_service = '';
         var utag_data= {
@@ -107,51 +110,6 @@
         <a class="close-reveal-modal">&#215;</a>
     </div>
     <iframe src="http://www.delawareonline.com/services/cobrand/footer/" frameborder="0" scrolling="no" style="width:100%;height:232px;"></iframe>
-    <script type="text/template" id="perp_template">
-        <div class="perp small-12 medium-12 large-12 columns panel">
-            <div class="small-12 medium-4 large-3 columns">
-                <img src="<%= mugshot %>" class="mugshot" alt="">
-            </div>
-            <div class="small-12 medium-8 large-9 columns">
-                <h2><%= displayName %></h2>
-                <ul class="quick-info">
-                    <li>
-                        <strong>Victim age:</strong> <%= victim_age %>
-                    </li>
-                    <li>
-                        <strong>Offender age:</strong> <%= perp_age %>
-                    </li>
-                    <li>
-                        <strong>Sentence date:</strong> <%= sentence_date %>
-                    </li>
-                    <li>
-                        <strong>Judge:</strong> <%= judge %>
-                    </li>
-                    <li>
-                        <strong>Prison Sentence:</strong> <%= prison_sentence_display %> <a class="prison-sentence-modal" href="javascript:void(0);"><img src="img/document-icon.png" style='margin:0 3px;' /></a>
-                    </li>
-                    <li>
-                        <strong>Actual prison time:</strong> <%= actual_prison_time_display %>
-                    </li>
-                    <li>
-                        <a href="javascript:void(0);" class="sentencing-transcript-modal">Sentencing Transcript</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </script>
-    <!-- DocumentCloud Loaders -->
-    <script src="//s3.amazonaws.com/s3.documentcloud.org/viewer/loader.js"></script>
-    <script src="//s3.amazonaws.com/s3.documentcloud.org/notes/loader.js"></script>
-    <!-- jQuery -->
-    <script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
-    <!-- Backbone -->
-    <script type="text/javascript" src="js/vendor/underscore.min.js"></script>
-    <script type="text/javascript" src="js/vendor/backbone.min.js"></script>
-    <!-- Foundation -->
-    <script type="text/javascript" src="js/foundation.min.js"></script>
-    <!-- Main -->
-    <script type="text/javascript" src="js/main.js"></script>
     <script type="json/pageinfo" class="pageinfo">
         {"comma_ssts": "news,local",
         "canonical": "http://php.delawareonline.com/news/2014/home-sales/",
